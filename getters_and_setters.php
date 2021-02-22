@@ -6,10 +6,8 @@ class Movie{
 	private $rating;
 
 	function __construct($mTitle, $mRating){
-
 		$this->title = $mTitle;
 		$this->setRating($mRating);
-
 	}
 
 	function getRating(){
@@ -21,11 +19,9 @@ class Movie{
 			$this->rating = $mRating;
 		} else{
 			$this->rating = 'NR';
-		}
-	
-		
+		}		
 	}
-}
 
+}
 
 ?>
